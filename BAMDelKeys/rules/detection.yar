@@ -1,7 +1,7 @@
 rule Elite_Cheat_Detection {
     meta:
         description = "Расширенный детект читов и инжекторов для Minecraft"
-        author = "mqclass_ss_version"
+        author = "mqclass"
     strings:
         $v1 = "vape_v4" nocase
         $v2 = "vape.rip" nocase
